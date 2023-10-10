@@ -1,0 +1,936 @@
+@import url(./font.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #FCFCFD;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Search Section */
+
+section .search-background{
+    background-image: url(../img/Cover.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 472px;
+}
+
+section .search{
+    padding: 96px 194px 228px 194px;
+    width: 752px;
+    height: 148px;
+}
+
+section .search h1{
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #101825;
+    text-align: center;
+    font-family: 'Hk Grotesk';
+}
+
+section .search form img{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+section .search input{
+    width: 752px;
+    height: 48px;
+    margin-top: 24px;
+    border-style: none;
+    border-radius: 8px;
+    outline-style: solid;
+    outline-color: #EDF0F4;
+    outline-width: 1px;
+}
+
+section .search input::placeholder{
+    color: #848B98;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 444px 12px 48px;
+    font-family: 'Hk Grotesk';
+}
+
+section .search .search-list ul{
+    display: flex;
+    margin-top: 16px;
+    font-family:'Hk Grotesk regular' ; 
+}
+
+section .search .search-list ul li{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+section .search .search-list ul li:hover{
+    text-decoration: underline;
+}
+
+section .search .search-list ul li{
+    margin-left: 24px;
+}
+
+section .search .search-list ul li:first-child{
+    margin-left: 0;
+}
+
+section .search .search-list ul li a{
+    color: #273142;
+}
+
+/* Search Section */
+
+/* News Section */
+
+section .upper-news{
+    display: flex;
+}
+
+section .upper-news .news{
+    width: 556px;
+    height: 304px;
+    background-color: white;
+    outline-style: solid;
+    outline-color: #EDF0F4;
+    outline-width: 1px;
+    margin: 56px 0px;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+}
+
+section .upper-news .news:hover{
+    box-shadow: 0px 0px 10px #B7BBC2;
+}
+
+section .upper-news .news:first-child{
+    margin-right: 32px;
+}
+
+section .upper-news .news:first-child::before{
+    content: '' ;
+    background: url(../logo/angle-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: 136px;
+    left: -20px;
+    cursor: pointer;
+}
+
+section .upper-news .news:last-child::after{
+    content: '' ;
+    background: url(../logo/angle-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: 136px;
+    cursor: pointer;
+    right: -20px;
+}
+
+section .upper-news .news .news-text .upper-text{
+    width: 293px;
+    height: 132px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Hk Grotesk';
+}
+
+section .upper-news .news .news-text .upper-text button{
+    margin-top: 16px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #4CB147;
+    padding: 6px 16px;
+}
+
+section .upper-news .news .news-text .upper-text button a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Hk Grotesk';
+    font-weight: 500;
+}
+
+section .upper-news .news .news-text .upper-text p{
+    margin-top: 16px;
+    color: #848B98;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+}
+
+section .upper-news .news .more{
+    display: flex;
+    margin-top: 88px;
+    margin-left: 24px;
+}
+
+section .upper-news .news .more a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+section .news .more img{
+    margin-left: 4px;
+}
+
+section .upper-news .news .news-photo img{
+    border-radius: 8px;
+}
+
+/* News Section */
+
+/* Popular Doctors */
+
+section .pop-doc-text{
+    display: flex;
+    margin: 24px 0px 56px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .pop-doc-text h1{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+section .pop-doc-text .look-all{
+    display: flex;
+}
+
+section .pop-doc-text .look-all p a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #4CB147;
+    font-family: 'Hk Grotesk';
+}
+
+section .pop-doc-text .look-all img{
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+.pop-doc-col{
+    display: flex;
+    gap: 32px;
+}
+
+.pop-doc-col .col{
+    width: 360px;
+    height: 224px;
+    background-color: white;
+    border-radius: 8px;
+    outline-color: #EDF0F4;
+    outline-width: 1px;
+    outline-style: solid;
+    transition: ease-in-out .3s;
+}
+
+.pop-doc-col .col:hover{
+    box-shadow: 0px 0px 25px #848B98;
+}
+
+.pop-doc-col .col:first-child::before{
+    content: '' ;
+    background: url(../logo/angle-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: 92px;
+    left: 85px;
+    cursor: pointer;
+}
+
+.pop-doc-col .col:last-child::after{
+    content: '' ;
+    background: url(../logo/angle-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    right: 85px;
+    margin-top: -140px;
+    cursor: pointer;
+}
+
+.pop-doc-col .col .upper-col{
+    display: flex;
+    align-items: center;
+}
+
+.pop-doc-col .col .upper-col .ai-pic{
+    margin-top: 24px;
+    margin-left: 24px;
+    position: relative;
+}
+
+.pop-doc-col .col .upper-col .text{
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.pop-doc-col .col .upper-col .text p:first-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #848B98;
+    font-family: 'Hk Grotesk';
+}
+
+.pop-doc-col .col .upper-col .text h6{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+.pop-doc-col .col .upper-col .text p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #B7BBC2;
+    font-family: 'Hk Grotesk regular';
+}
+
+.pop-doc-col .col .upper-col .video-call-icon{
+    margin-top: 22px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.pop-doc-col .col .medium-col{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.pop-doc-col .col .medium-col p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular';
+}
+
+.pop-doc-col .col .medium-col ul li{
+    margin-left: 6px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular';
+}
+
+.pop-doc-col .col .doc-point{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.pop-doc-col .col .doc-point p:nth-child(2){
+    margin-left: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #FFAD0D;
+}
+
+.pop-doc-col .col .doc-point p:last-child{
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+}
+
+.pop-doc-col .col .footer-col{
+    border-top: 1px solid #EDF0F4;
+    margin-top: 10px;
+}
+
+.pop-doc-col .col .footer-col ul{
+    display: flex;
+    padding: 12px 0px 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular legacy';
+    color: #B7BBC2;
+}
+
+.pop-doc-col .col .footer-col ul li:nth-child(2){
+    margin-left: 8px;
+}
+
+.pop-doc-col .col .footer-col ul li:nth-child(3){
+    margin-left: 8px;
+}
+
+/* Popular Doctors */
+
+/* New Doctors */
+
+section .new-doc-text{
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .new-doc-text h1{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+section .new-doc-text .look-all{
+    display: flex;
+}
+
+section .new-doc-text .look-all p a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #B7BBC2;
+    font-family: 'Hk Grotesk';
+}
+
+section .new-doc-text .look-all img{
+    margin-left: 4px;
+}
+
+.new-doctors{
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.new-doctors .col{
+    width: 360px;
+    height: 192px;
+    background-color: white;
+    border-radius: 8px;
+    outline-color: #EDF0F4;
+    outline-width: 1px;
+    outline-style: solid;
+    transition: ease-in-out .3s;
+}
+
+.new-doctors .col:hover{
+    box-shadow: 0px 0px 25px #848B98;
+}
+
+.new-doctors .col:first-child::before{
+    content: '' ;
+    background: url(../logo/angle-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: 70px;
+    left: 85px;
+    cursor: pointer;
+}
+
+.new-doctors .col:last-child::after{
+    content: '' ;
+    background: url(../logo/angle-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: -130px;
+    right: 85px;
+    cursor: pointer;
+}
+
+.new-doctors .col .upper-col{
+    display: flex;
+    align-items: center;
+}
+
+.new-doctors .col .upper-col .ai-pic{
+    margin-top: 24px;
+    margin-left: 24px;
+    position: relative;
+}
+.new-doctors .col .upper-col .text{
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.new-doctors .col .upper-col .text p:first-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #848B98;
+    font-family: 'Hk Grotesk';
+}
+
+.new-doctors .col .upper-col .text h6{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+.new-doctors .col .upper-col .text p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #B7BBC2;
+    font-family: 'Hk Grotesk regular';
+}
+
+.new-doctors .col .upper-col .video-call-icon{
+    margin-top: 22px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.new-doctors .col .medium-col{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.new-doctors .col .medium-col p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular';
+}
+
+.new-doctors .col .medium-col ul li{
+    margin-left: 6px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular';
+}
+
+.new-doctors .col .footer-col{
+    border-top: 1px solid #EDF0F4;
+    margin-top: 10px;
+}
+
+.new-doctors .col .footer-col ul{
+    display: flex;
+    padding: 12px 0px 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular legacy';
+    color: #B7BBC2;
+}
+
+.new-doctors .col .footer-col ul li:nth-child(2){
+    margin-left: 8px;
+}
+
+.new-doctors .col .footer-col ul li:nth-child(3){
+    margin-left: 8px;
+}
+
+/* Popular catagories  */
+
+.pop-cat{
+    width: 100%;
+    height: 308px;
+    background-color: white;
+    margin-top: 56px;
+}
+
+.pop-cat .pop-cat-text{
+    padding-top: 56px;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+}
+
+.pop-cat .catagories{
+    display: flex;
+} 
+
+.pop-cat .catagories .cat{
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.pop-cat .catagories .cat a p{
+    color: black;
+    margin-top: 12px;
+    font-family: 'Hk Grotesk';
+}
+
+.pop-cat .catagories .cat:nth-child(1){
+    margin-left: 0;
+}
+
+/* Popular catagories */
+
+/* Recommended doctors */
+
+section .recommended-doc-text{
+    display: flex;
+    margin: 56px 0px 24px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .recommended-doc-text h1{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+section .recommended-doc-text .look-all{
+    display: flex;
+}
+
+section .recommended-doc-text .look-all p a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #B7BBC2;
+    font-family: 'Hk Grotesk';
+}
+
+section .recommended-doc-text .look-all img{
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+.recom-doc-col{
+    display: flex;
+    gap: 32px;
+}
+
+.recom-doc-col .col{
+    width: 360px;
+    height: 224px;
+    background-color: white;
+    border-radius: 8px;
+    outline-color: #EDF0F4;
+    outline-width: 1px;
+    outline-style: solid;
+    transition: ease-in-out .3s;
+}
+
+.recom-doc-col .col:hover{
+    box-shadow: 0px 0px 25px #848B98;
+}
+
+.recom-doc-col .col:first-child::before{
+    content: '' ;
+    background: url(../logo/angle-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: 92px;
+    left: 85px;
+    cursor: pointer;
+}
+
+.recom-doc-col .col:last-child::before{
+    content: '' ;
+    background: url(../logo/angle-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    outline-width: 1px;
+    outline-color: #EDF0F4;
+    outline-style: solid;
+    margin-top: 92px;
+    right: 85px;
+    cursor: pointer;
+}
+
+.recom-doc-col .col .upper-col{
+    display: flex;
+    align-items: center;
+}
+
+.recom-doc-col .col .upper-col .ai-pic{
+    margin-top: 24px;
+    margin-left: 24px;
+    position: relative;
+}
+
+.recom-doc-col .col .upper-col .text{
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.recom-doc-col .col .upper-col .text p:first-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #848B98;
+    font-family: 'Hk Grotesk';
+}
+
+.recom-doc-col .col .upper-col .text h6{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #101825;
+    font-family: 'Hk Grotesk';
+}
+
+.recom-doc-col .col .upper-col .text p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #B7BBC2;
+    font-family: 'Hk Grotesk regular';
+}
+
+.recom-doc-col .col .upper-col .video-call-icon{
+    margin-top: 22px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.recom-doc-col .col .medium-col{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.recom-doc-col .col .medium-col p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular';
+}
+
+.recom-doc-col .col .medium-col ul li{
+    margin-left: 6px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular';
+}
+
+.recom-doc-col .col .doc-point{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.recom-doc-col .col .doc-point p:nth-child(2){
+    margin-left: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #FFAD0D;
+}
+
+.recom-doc-col .col .doc-point p:last-child{
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+}
+
+.recom-doc-col .col .footer-col{
+    border-top: 1px solid #EDF0F4;
+    margin-top: 10px;
+}
+
+.recom-doc-col .col .footer-col ul{
+    display: flex;
+    padding: 12px 0px 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk regular legacy';
+    color: #B7BBC2;
+}
+
+.recom-doc-col .col .footer-col ul li:nth-child(2){
+    margin-left: 8px;
+}
+
+.recom-doc-col .col .footer-col ul li:nth-child(3){
+    margin-left: 8px;
+}
+
+/* Be a part of doctonline */
+
+section{
+    margin-bottom: 120px;
+}
+
+section .doc-part-text{
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    margin: 56px 0px 24px 0px;
+}
+
+section .doc-part-col{
+    display: flex;
+}
+
+section .doc-part-col .col{
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 104px;
+    
+}
+
+section .doc-part-col .col{
+    transition: linear .3s;
+}
+
+section .doc-part-col .col:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px #B7BBC2;
+}
+
+section .doc-part-col .col:last-child{
+    margin-left: 32px;
+}
+
+section .doc-part-col .col p{
+    padding: 21px 20px 0px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+}
+
+section .doc-part-col .col .more{
+    padding: 8px 20px 20px 20px;
+    align-items: center;
+    display: flex;
+}
+
+section .doc-part-col .col .more a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color:#848B98;
+}
+
+section .doc-part-col .col .more img{
+    margin-left: 4px;
+    color: red;
+}
+
+/* Be a part of doctonline */
+

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Hk Grotesk';
+    src: url(../fonts/HKGrotesk-MediumLegacy.otf);
+}
+
+@font-face {
+    font-family: 'Hk Grotesk regular';
+    src: url(../fonts/HKGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Hk Grotesk regular legacy';
+    src: url(../fonts/HKGrotesk-RegularLegacy.otf);
+}

@@ -1,0 +1,98 @@
+
+footer{
+    background-color: #101825;
+    height: 340px;
+}
+
+footer .about-us{
+    display: flex;
+    height: 260px;
+}
+
+footer .about-us .doc-logo{
+    margin-top: 40px;
+}
+
+footer .about-us .download-logo{
+    margin: 84px 0px 56px 0px;
+}
+
+footer .about-us .about-us-list{
+    display: flex;
+    margin-left: 307px;
+}
+
+footer .about-us .about-us-list ul{
+    color: white;
+    padding-top: 40px;
+}
+
+footer .about-us .about-us-list ul:nth-child(2){
+    margin-left: 186px;
+}
+
+footer .about-us .about-us-list ul li{
+   margin-top: 12px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   font-family: 'Hk Grotesk';
+}
+
+footer .about-us .about-us-list ul li:nth-child(2){
+    margin-top: 24px;
+}
+
+footer .about-us .about-us-list ul li a{
+    color: white;
+}
+
+footer .lower-footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 28px 0 28px 0;
+}
+
+footer .lower-footer::before{
+    content: '';
+    width: 1349px;
+    height: 80px;
+    background-color: white;
+    opacity: 4%;
+    position: absolute;
+    left: -105px;
+}
+
+footer .lower-footer .left-side{
+    width: 120px;
+    height: 24px;
+    z-index: 999;
+}
+
+footer .lower-footer .left-side ul{
+    display: flex;
+    align-items: center;
+}
+
+footer .lower-footer .left-side ul li{
+    margin-left: 24px;
+    display: flex;
+}
+
+footer .lower-footer .left-side ul li:first-child{
+    margin-left: 0;
+}
+
+footer .lower-footer .right-side{
+    right: 0;
+    position: absolute;
+}
+
+footer .lower-footer .right-side li p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+}
