@@ -162,23 +162,29 @@ nav .navbar-text span{
 
 /* Doc-info */
 
-section .right{
-    width: 70%;
-    background-color: red;
+section .doctor-information{
+    display: flex;
+}
+
+/* Left */
+
+section .left{
+    width: 65%;
+    margin-top: 32px;
+    margin-bottom: 120px;
 }
 
 /* Information */
 
-section .right .information h5{
+section .left .information h5{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
     font-family: 'Hk Grotesk';
     color: #101825;
-    margin-top: 32px;
 }
 
-section .right .information p{
+section .left .information p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -188,24 +194,24 @@ section .right .information p{
     margin-top: 16px;
 }
 
-section .right .information .docpoint{
+section .left .information .docpoint{
     margin-top: 8px;
 }
 
-section .right .information .docpoint ul{
+section .left .information .docpoint ul{
     display: flex;
     align-items: center;
 }
 
-section .right .information .docpoint ul li{
+section .left .information .docpoint ul li{
     margin-left: 8px;
 }
 
-section .right .information .docpoint ul li:first-child{
+section .left .information .docpoint ul li:first-child{
     margin-left: 0;
 }
 
-section .right .information .docpoint ul li:nth-child(2){
+section .left .information .docpoint ul li:nth-child(2){
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -214,7 +220,7 @@ section .right .information .docpoint ul li:nth-child(2){
     color: #FFAD0D;
 }
 
-section .right .information .docpoint ul li:nth-child(3){
+section .left .information .docpoint ul li:nth-child(3){
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -223,7 +229,7 @@ section .right .information .docpoint ul li:nth-child(3){
     color: #273142;
 }
 
-section .right .information .docpoint ul li a{
+section .left .information .docpoint ul li a{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -232,7 +238,7 @@ section .right .information .docpoint ul li a{
     color: #4CB147;
 }
 
-section .right .information .contact p{
+section .left .information .contact p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -242,23 +248,23 @@ section .right .information .contact p{
     margin-top: 16px;
 }
 
-section .right .information .contact .telephone{
+section .left .information .contact .telephone{
     display: flex;
     align-items: center;
 }
 
-section .right .information .contact .telephone span{
+section .left .information .contact .telephone span{
     background-color: #FAECEC;
     width: 32px;
     height: 32px;
     border-radius: 100%;
 }
 
-section .right .information .contact .telephone span img{
+section .left .information .contact .telephone span img{
     padding: 8px;
 }
 
-section .right .information .contact .telephone a{
+section .left .information .contact .telephone a{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -268,25 +274,25 @@ section .right .information .contact .telephone a{
     margin-left: 8px;
 }
 
-section .right .information .contact .gmail{
+section .left .information .contact .gmail{
     display: flex;
     align-items: center;
     margin-top: 8px;
 }
 
-section .right .information .contact .gmail span{
+section .left .information .contact .gmail span{
     background-color: #FAECEC;
     width: 32px;
     height: 32px;
     border-radius: 100%;
 }
 
-section .right .information .contact .gmail span img{
+section .left .information .contact .gmail span img{
     padding: 8px;
     padding-top: 9px;
 }
 
-section .right .information .contact .gmail a{
+section .left .information .contact .gmail a{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -300,11 +306,11 @@ section .right .information .contact .gmail a{
 
 /* Education */
 
-section .right .education{
+section .left .education{
     margin-top: 48px;
 }
 
-section .right .education h5{
+section .left .education h5{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
@@ -312,7 +318,7 @@ section .right .education h5{
     color: #101825;
 }
 
-section .right .education h3{
+section .left .education h3{
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -323,7 +329,7 @@ section .right .education h3{
 }
 
 
-section .right .education h4{
+section .left .education h4{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -339,11 +345,11 @@ section .right .education h4{
 /* Work-time */
 
 
-section .right .work-time{
+section .left .work-time{
     margin-top: 48px;
 }
 
-section .right .work-time h5{
+section .left .work-time h5{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
@@ -351,7 +357,7 @@ section .right .work-time h5{
     color: #101825;
 }
 
-section .right .work-time p{
+section .left .work-time p{
     margin-top: 8px;
     font-size: 16px;
     line-height: 24px;
@@ -361,24 +367,24 @@ section .right .work-time p{
     color: #101825;
 }
 
-section .right .work-time .time-table{
+section .left .work-time .time-table{
     border: 1px solid #EDF0F4;
     width: 654px;
     border-radius: 8px;
     margin-top: 16px;
 }
 
-section .right .work-time .time-table .upper-table{
+section .left .work-time .time-table .upper-table{
     display: flex;
     justify-content: space-between;
 }
 
-section .right .work-time .time-table .upper-table .date{
+section .left .work-time .time-table .upper-table .date{
     margin-top: 24px;
     margin-left: 24px;
 }
 
-section .right .work-time .time-table .upper-table .date ul li{
+section .left .work-time .time-table .upper-table .date ul li{
     margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
@@ -388,17 +394,17 @@ section .right .work-time .time-table .upper-table .date ul li{
     color: #848B98;
 }
 
-section .right .work-time .time-table .upper-table .date ul li:first-child{
+section .left .work-time .time-table .upper-table .date ul li:first-child{
     margin-top: 0;
 }
 
-section .right .work-time .time-table .upper-table .time{
+section .left .work-time .time-table .upper-table .time{
     margin-right: 24px;
     margin-top: 24px;
     margin-bottom: 12px;
 }
 
-section .right .work-time .time-table .upper-table .time ul li{
+section .left .work-time .time-table .upper-table .time ul li{
     margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
@@ -408,23 +414,23 @@ section .right .work-time .time-table .upper-table .time ul li{
     color: #101825;
 }
 
-section .right .work-time .time-table .upper-table .time ul li:first-child{
+section .left .work-time .time-table .upper-table .time ul li:first-child{
     margin-top: 0;
 }
 
-section .right .work-time .time-table .bottom-table{
+section .left .work-time .time-table .bottom-table{
     border-top: 1px solid #EDF0F4;
     display: flex;
     justify-content: space-between;
 }
 
-section .right .work-time .time-table .bottom-table .date{
+section .left .work-time .time-table .bottom-table .date{
     margin-top: 12px;
     margin-left: 24px;
     margin-bottom: 12px;
 }
 
-section .right .work-time .time-table .bottom-table .date ul li{
+section .left .work-time .time-table .bottom-table .date ul li{
     margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
@@ -434,17 +440,17 @@ section .right .work-time .time-table .bottom-table .date ul li{
     color: #848B98;
 }
 
-section .right .work-time .time-table .bottom-table .date ul li:first-child{
+section .left .work-time .time-table .bottom-table .date ul li:first-child{
     margin-top: 0;
 }
 
-section .right .work-time .time-table .bottom-table .time{
+section .left .work-time .time-table .bottom-table .time{
     margin-right: 24px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-section .right .work-time .time-table .bottom-table .time ul li{
+section .left .work-time .time-table .bottom-table .time ul li{
     margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
@@ -454,7 +460,7 @@ section .right .work-time .time-table .bottom-table .time ul li{
     color: #101825;
 }
 
-section .right .work-time .time-table .bottom-table .time ul li:first-child{
+section .left .work-time .time-table .bottom-table .time ul li:first-child{
     margin-top: 0;
 }
 
@@ -462,15 +468,15 @@ section .right .work-time .time-table .bottom-table .time ul li:first-child{
 
 /* Location */
 
-section .right .work-time .location{
+section .left .location{
     margin-top: 48px;
 } 
 
-section .right .work-time .location .upper-loc{
+section .left .location .upper-loc{
     display: flex;
 }
 
-section .right .work-time .location h5{
+section .left .location h5{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
@@ -478,7 +484,7 @@ section .right .work-time .location h5{
     color: #101825;
 }
 
-section .right .work-time .location p{
+section .left .location p{
     margin-top: 8px;
     font-size: 16px;
     line-height: 24px;
@@ -488,18 +494,18 @@ section .right .work-time .location p{
     color: #101825;
 }
 
-section .right .work-time .location .mapouter{
+section .left .location .mapouter{
     margin-top: 16px;
     border-radius: 8px;
 }
 
-section .right .work-time .location .upper-loc .loc-cont{
+section .left .location .upper-loc .loc-cont{
     display: flex;
     align-items: center;
     margin-left: 170px;
 }
 
-section .right .work-time .location .upper-loc .loc-cont span{
+section .left .location .upper-loc .loc-cont span{
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -508,11 +514,11 @@ section .right .work-time .location .upper-loc .loc-cont span{
     cursor: pointer;
 }
 
-section .right .work-time .location .upper-loc .loc-cont span img{
+section .left .location .upper-loc .loc-cont span img{
     padding: 12px;
 }
 
-section .right .work-time .location .upper-loc .loc-cont p{
+section .left .location .upper-loc .loc-cont p{
     margin-left: 8px;
     margin-right: 8px;
     font-size: 16px;
@@ -527,11 +533,11 @@ section .right .work-time .location .upper-loc .loc-cont p{
 
 /* Course */
 
-section .right .work-time .course{
+section .left .course{
     margin-top: 48px;
 }
 
-section .right .work-time .course h5{
+section .left .course h5{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
@@ -539,7 +545,7 @@ section .right .work-time .course h5{
     color: #101825;
 }
 
-section .right .work-time .course h6{
+section .left .course h6{
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -549,7 +555,7 @@ section .right .work-time .course h6{
     margin-top: 16px;
 }
 
-section .right .work-time .course p{
+section .left .course p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -563,11 +569,11 @@ section .right .work-time .course p{
 
 /* Insurances */
 
-section .right .work-time .insurances{
+section .left .insurances{
     margin-top: 48px;
 }
 
-section .right .work-time .insurances h5{
+section .left .insurances h5{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
@@ -575,7 +581,7 @@ section .right .work-time .insurances h5{
     color: #101825;
 }
 
-section .right .work-time .insurances .insurance{
+section .left .insurances .insurance{
     width: 654px;
     height: 56px;
     background-color: #FBFBFC;
@@ -586,11 +592,11 @@ section .right .work-time .insurances .insurance{
     margin-top: 16px;
 }
 
-section .right .work-time .insurances .insurance:last-child{
+section .left .insurances .insurance:last-child{
     margin-top: 8px;
 }
 
-section .right .work-time .insurances .insurance p{
+section .left .insurances .insurance p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -601,7 +607,7 @@ section .right .work-time .insurances .insurance p{
     margin-left: 24px;
 }
 
-section .right .work-time .insurances .insurance a img{
+section .left .insurances .insurance a img{
     margin-top: 12px;
     margin-right: 32px;
 }
@@ -610,11 +616,361 @@ section .right .work-time .insurances .insurance a img{
 
 /* Comments */
 
+section .left .comment{
+    margin-top: 48px;
+}
 
+section .left .comment h5{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
 
+section .left .comment .comment-top{
+    margin-top: 16px;
+}
 
+section .left .comment .comment-top ul{
+    display: flex;
+    align-items: center;
+}
+
+section .left .comment .comment-top ul li{
+    margin-left: 16px;
+}
+
+section .left .comment .comment-top ul li:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.5px;
+    color: #101825;
+    margin-left: 0;
+}
+
+section .left .comment .comment-top ul li:last-child{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: #FFAD0D;
+}
+
+section .left .comment .comment-bottom{
+    margin-bottom: 32px;
+}
+
+section .left .comment .comment-bottom p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.5px;
+    color: #101825;
+}
+
+section .left .comment .comment-bottom ul{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+section .left .comment .comment-bottom ul li{
+    margin-left: 8px;
+}
+
+section .left .comment .comment-bottom ul li:first-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.1px;
+    color: #848B98;
+    margin-left: 0;
+}
+
+section .left .comment .comment-bottom ul li:nth-child(2){
+    font-size: 14px;
+    color: #848B98;
+}
+
+section .left .comment .comment-bottom ul li:nth-child(4){
+    font-size: 14px;
+    color: #848B98;
+}
+
+section .left .comment .comment-bottom ul li:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.25px;
+    color: #848B98;
+}
+
+section .left .comment .comment-medium{
+    margin-top: 32px;
+}
+
+section .left .comment .comment-medium p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.5px;
+    color: #101825;
+}
+
+section .left .comment .comment-medium ul{
+    display: flex;
+    align-items: center;
+}
+
+section .left .comment a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: #4CB147;
+}
 
 
 /* Comments */
+
+/* Left */
+
+/* Right */
+
+section .right{
+    width: 430px;
+    height: 634px;
+    background-color: white;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin-top: -200px;
+    z-index: 9;
+}
+
+section .right h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+section .right h5{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.5px;
+    color: #848B98;
+    margin-top: 4px;
+    margin-left: 32px;
+}
+
+section .right .meet-col{
+    display: flex;
+}
+
+section .right .meet-col .meet-clinic{
+    background-color: white;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    width: 172px;
+    height: 80px;
+    margin-left: 32px;
+    margin-top: 16px;
+    position: relative;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
+section .right .meet-col .meet-clinic:last-child{
+    background-color: white;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    width: 172px;
+    height: 80px;
+    margin-left: 8px;
+    margin-top: 16px;
+    position: relative;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
+section .right .meet-col .meet-clinic:hover{
+    background-color: #fff0f0;
+    border: 1px solid #D45A5A;
+}
+
+section .right .meet-col .meet-clinic:hover:last-child{
+    background-color: #ecfaed;
+    border: 1px solid #4CB147;
+}
+
+section .right .meet-col .meet-clinic .meet-img img:first-child{
+    margin-top: 20px;
+    margin-left: 17px;
+    position: relative;
+    z-index: 9;
+}
+
+section .right .meet-col .meet-clinic .meet-img span{
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #F2FAF2;
+    border-radius: 100%;
+    top: 12px;
+    left: 8px;
+}
+
+section .right .meet-col .meet-clinic .meet-img img:last-child{
+    right: 14px;
+    position: absolute;
+    top: 8px;
+}
+
+section .right .meet-col .meet-clinic p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.25px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+/* Meet */
+
+/* Choose Clinic */
+
+section .right .choose-clinic{
+    display: flex;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin-left: 32px;
+    margin-top: 16px;
+    width: 352px;
+    height: 56px;
+    align-items: center;
+}
+
+section .right .choose-clinic:last-child{
+    margin-top: 8px;
+}
+
+section .right .choose-clinic:hover{
+    background-color: #F2FAF2;
+    border: 1px solid #4CB147;
+    cursor: pointer;
+}
+
+section .right .choose-clinic input[type=checkbox]{
+    margin: 16px 8px 16px 16px;
+}
+
+section .right .choose-clinic p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.1px;
+    color: #273142;
+}
+
+section .right .date-time{
+    margin-top: 16px;
+}
+
+section .right .date-time .date{
+    display: flex;
+    margin-left: 32px;
+}
+
+section .right .date-time .date ul{
+    background-color: white;
+    width: 63px;
+    height: 45px;
+    margin-left: 8px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    text-align: center;
+}
+
+section .right .date-time .date ul:first-child{
+    margin-left: 0;
+}
+
+section .right .date-time .date ul li:first-child{
+    margin-top: 5px;
+}
+
+section .right .date-time .date ul li:last-child{
+    color: #B7BBC2;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+}
+
+section .right .date-time .date ul li p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.1px;
+}
+
+section .right .date-time .time{
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+section .right .date-time .time ul{
+    display: flex;
+    margin-top: 8px;
+}
+
+section .right .date-time .time ul li{
+    border-radius: 7px;
+    background-color: #EDF0F4;
+    margin-left: 8px;
+    width: 64px;
+    height: 30px;
+    text-align: center;
+    transition: linear .3s;
+}
+
+section .right .date-time .time ul li:first-child{
+    margin-left: 0;
+}
+
+section .right .date-time .time ul li:hover{
+    background-color: #4CB147;
+    cursor: pointer;
+}
+
+section .right .date-time .time ul li p{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    font-family: 'Hk Grotesk';
+}
+
+
+/* Right */
 
 /* Doc-info */
