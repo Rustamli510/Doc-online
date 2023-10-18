@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+body{
+    background-color: #FCFCFD;
+}
+
 
 /* Header */
 
@@ -215,6 +219,7 @@ header .number4 img{
 section{
     display: flex;
     margin-top: 32px;
+    margin-bottom: 100px;
     justify-content: center;
 }
 
@@ -382,10 +387,121 @@ section .doctor-meet .continue a{
     margin-left: 35%;
 }
 
-section .doctor-meet .continue .and{
-    display: flex;
+section .doctor-meet .and{
     margin-top: 26px;
     margin-left: 32px;
+    width: 492px;
+    display: flex;
+}
+
+section .doctor-meet .and span{
+    width: 213px;
+    height: 1px;
+    background-color: #EDF0F4;
+    margin-top: 7px;
+}
+
+section .doctor-meet .and .text{
+    background-color: white;
+    width: 64px;
+    height: 24px;
+}
+
+section .doctor-meet .and .text p{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #B7BBC2;
+    text-align: center;
+}
+
+section .doctor-meet .social-login{
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+section .doctor-meet .social-login .social{
+    width: 491px;
+    height: 47px;
+    border: 1px solid #D84E40;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+section .doctor-meet .social-login .social:last-child{
+    width: 491px;
+    height: 47px;
+    border: 1px solid #1872F2;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+section .doctor-meet .social-login .social:hover{
+    background-color: rgb(253, 238, 238);
+}
+
+section .doctor-meet .social-login .social:last-child:hover{
+    background-color: rgb(238, 238, 255);
+}
+
+section .doctor-meet .social-login .social img{
+    margin: 14px 0 14px 16px;
+}
+
+section .doctor-meet .social-login .social a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'Hk Grotesk';
+    color: #D84E40; 
+    text-align: center;
+    margin-left: 155px;
+}
+
+section .doctor-meet .social-login .social #facebook{
+    color: #1872F2;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'Hk Grotesk';
+    margin-left: 149px;
+}
+
+section .doctor-meet .login{
+    margin-left: 32px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+section .doctor-meet .login p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'Hk Grotesk';
+    color: #848484;
+    margin-left: -14px;
+}
+
+section .doctor-meet .login a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'Hk Grotesk';
+    color: #4CB147;
+    margin-left: 8px;
 }
 
 
