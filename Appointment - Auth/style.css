@@ -338,14 +338,55 @@ section .doctor-meet form .telephone .right input{
     padding-left: 16px;
 }
 
-section .doctor-meet form h3{
+section .doctor-meet .down{    
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+section .doctor-meet .down h3{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.25px;
     font-weight: 400;
     font-family: 'Hk Grotesk';
     color: #848B98;
-    margin-top: 16px;
 }
+
+section .doctor-meet .down input{
+    margin-top: 4px;
+    width: 492px;
+    height: 48px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+}
+
+section .doctor-meet .continue{
+    width: 493px;
+    height: 47px;
+    margin-top: 16px;
+    margin-left: 32px;
+    background-color: #4CB147;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+}
+
+section .doctor-meet .continue a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    font-family: 'Hk Grotesk';
+    color: white;
+    margin-top: 12px;
+    margin-left: 35%;
+}
+
+section .doctor-meet .continue .and{
+    display: flex;
+    margin-top: 26px;
+    margin-left: 32px;
+}
+
 
 /* Form */
