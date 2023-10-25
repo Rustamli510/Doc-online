@@ -21,23 +21,18 @@ header{
     background-color: white;
 }
 
-header .header{
-    display: flex;
-}
-
 header .header img{
     margin: 20px 0px 20px 32px;
 }
 
 /* Header */
 
-
 /* Goruse basla */
 
 
 .meet{
     width: 555px;
-    height: 512px;
+    height: 569px;
     background-color: white;
     border: 1px solid #EDF0F4;
     border-radius: 8px;
@@ -121,7 +116,8 @@ header .header img{
     width: 491px;
     height: 55px;
     border: 1px solid #EDF0F4;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     background-color: #FBFBFC;
     align-items: center;
 }
@@ -133,6 +129,34 @@ header .header img{
 }
 
 .meet .bottom .video-call p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: #273142;
+}
+
+.meet .bottom .clinic{
+    display: flex;
+    width: 491px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #FBFBFC;
+    align-items: center;
+}
+
+.meet .bottom .clinic img{
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+}
+
+.meet .bottom .clinic p{
     font-family: 'HK Grotesk';
     font-size: 16px;
     font-weight: 400;
@@ -297,7 +321,6 @@ header .header img{
 /* Bottom */
 
 /* Goruse basla */
-
 /* Page-bottom */
 
 .page-bottom{
@@ -341,6 +364,10 @@ header .header img{
     border: 1px solid #EDF0F4;
     border-radius: 100%;
     align-items: center;
+}
+
+.social-media .social:hover{
+    background-color: #4CB147;
 }
 
 .social-media .social:nth-child(2){
