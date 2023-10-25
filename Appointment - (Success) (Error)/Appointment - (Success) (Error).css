@@ -1,0 +1,133 @@
+@import url(../Home-page/font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FCFCFD;
+}
+
+
+/* Header */
+
+header{
+    height: 79px;
+    position: relative;
+    border-bottom: 1px solid #EDF0F4;
+    background-color: white;
+}
+
+header .header img{
+    margin: 20px 0px 20px 32px;
+}
+
+/* Header */
+
+/* Success section */
+
+section .success{
+    width: 555px;
+    height: 399px;
+    border: 1px solid #4CB147;
+    border-radius: 8px;
+    background-color: #F2FAF2;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 400px;
+}
+
+section .success img{
+    margin-top: 48px;
+}
+
+section .success h2{
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+section .success p{
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: #101825;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+section .success p span{
+    color: #4CB147;
+    font-weight: 700;
+}
+
+section .success .view-details{
+    width: 215px;
+    height: 36px;
+    background-color: #4CB147;
+    border-radius: 8px;
+    padding-top: 12px;
+    margin-left: 170px;
+    margin-top: 16px;
+}
+
+section .success .view-details a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: white;
+}
+
+
+/* Success section */
+
+/* No-success */
+
+section .no-success{
+    width: 555px;
+    height: 247px;
+    border: 1px solid #DD2727;
+    border-radius: 8px;
+    background-color: #FFF8F8;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+section .no-success img{
+    margin-top: 48px;
+}
+
+section .no-success p{
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: #101825;
+    margin-left: 80px;
+    margin-right: 80px;   
+}
+
+section .no-success p a{
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: #101825;
+}

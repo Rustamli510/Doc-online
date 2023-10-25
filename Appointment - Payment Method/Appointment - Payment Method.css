@@ -1,0 +1,254 @@
+@import url(../Home-page/font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FCFCFD;
+}
+
+
+/* Header */
+
+header{
+    height: 79px;
+    position: relative;
+    border-bottom: 1px solid #EDF0F4;
+    background-color: white;
+}
+
+header .appointment-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .appointment-header .left{
+    display: flex;
+    align-items: center;
+}
+
+header .appointment-header .left img{
+    padding: 20px 0px 20px 32px;
+}
+
+header .appointment-header .left .header-text{
+    margin-left: 78px;
+    display: flex;
+}
+
+header .appointment-header .left .header-text .first p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+header .appointment-header .left .header-text .first p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .left .header-text .second{
+    margin-left: 72px;
+}
+
+header .appointment-header .left .header-text .second p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+header .appointment-header .left .header-text .second p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .left .header-text .third{
+    margin-left: 72px;
+}
+
+header .appointment-header .left .header-text .third p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+header .appointment-header .left .header-text .third p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .left .header-text .fourth{
+    margin-left: 72px;
+}
+
+header .appointment-header .left .header-text .fourth p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+header .appointment-header .left .header-text .fourth p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .left .header-text .fifth{
+    margin-left: 72px;
+}
+
+header .appointment-header .left .header-text .fifth p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #4CB147;
+}
+
+header .appointment-header .left .header-text .fifth p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .right{
+    margin-right: 32px;
+    width: 36px;
+    height: 36px;
+    background-color: #EDF0F4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+} 
+
+header .appointment-header .right img{
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+header .border-bottom{
+    position: absolute;
+    border-bottom: 1px solid #4CB147;
+    bottom: -1px;
+    width: 831px;
+}
+
+header .number1{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4CB147;
+    top: 67px;
+    left: 265px;
+}
+
+header .number1 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+header .number2{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4CB147;
+    top: 67px;
+    left: 495px;
+}
+
+header .number2 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+header .number3{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4CB147;
+    top: 67px;
+    left: 623px;
+}
+
+header .number3 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+header .number4{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4CB147;
+    top: 67px;
+    left: 831px;
+}
+
+header .number4 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+header .number5{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    top: 67px;
+    left: 1022px;
+}
+
+header .number5 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+/* Header */
