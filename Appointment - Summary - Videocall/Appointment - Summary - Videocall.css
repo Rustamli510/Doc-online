@@ -30,6 +30,7 @@ header .header img{
 
 /* Goruse basla */
 
+
 .meet{
     width: 555px;
     height: 512px;
@@ -39,6 +40,8 @@ header .header img{
     margin: 0 auto;
     margin-top: 32px;
 }
+
+/* Upper */
 
 .meet .upper{
     display: flex;
@@ -265,3 +268,85 @@ header .header img{
     color: #273142;
     margin-top: -1px;
 }
+
+.meet .bottom .start-meet{
+    width: 492px;
+    height: 56px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #4CB147;
+    margin-top: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+.meet .bottom .start-meet a{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+/* Bottom */
+
+/* Goruse basla */
+
+/* Page-bottom */
+
+.page-bottom{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.page-bottom p{
+    font-family: 'Hk Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #273142;
+}
+
+.page-bottom a{
+    font-family: 'Hk Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #4CB147;
+}
+
+/* Page-bottom */
+
+/* Social-media */
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 115px;
+}
+
+.social-media .social{
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #EDF0F4;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.social-media .social:nth-child(2){
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.social-media .social a img{
+    margin: 11px;
+}
+
+
+/* Social-media */
