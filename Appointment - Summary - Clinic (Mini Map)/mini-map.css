@@ -131,41 +131,13 @@ header .header .right img{
     margin-top: 32px;
 }
 
-.meet .bottom .video-call{
+.meet .bottom .clinic{
     display: flex;
     width: 491px;
     height: 55px;
     border: 1px solid #EDF0F4;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: #FBFBFC;
-    align-items: center;
-}
-
-.meet .bottom .video-call img{
-    width: 20px;
-    height: 20px;
-    margin-left: 24px;
-}
-
-.meet .bottom .video-call p{
-    font-family: 'HK Grotesk';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.15px;
-    margin-left: 8px;
-    margin-top: 5px;
-    color: #273142;
-}
-
-.meet .bottom .clinic{
-    display: flex;
-    width: 491px;
-    height: 55px;
-    border: 1px solid #EDF0F4;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
     background-color: #FBFBFC;
     align-items: center;
 }
@@ -177,6 +149,34 @@ header .header .right img{
 }
 
 .meet .bottom .clinic p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: #273142;
+}
+
+.meet .bottom .map{
+    display: flex;
+    width: 491px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #FBFBFC;
+    align-items: center;
+}
+
+.meet .bottom .map img{
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+}
+
+.meet .bottom .map p{
     font-family: 'HK Grotesk';
     font-size: 16px;
     font-weight: 400;
