@@ -252,3 +252,62 @@ header .number5 img{
 }
 
 /* Header */
+
+/* Media */
+
+@media screen and (max-width: 767px){
+    header .appointment-header .left .header-text .first{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .second{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .third{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .fourth{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .fifth{
+       position: absolute;
+       top: 96px;
+       margin-left: -60px;
+    }
+
+    header .appointment-header .left .header-text .fifth p:first-child{
+        color: #101825;
+    }
+
+    header .border-bottom{
+        display: none;
+    } 
+
+    header .number1{
+        left: 32px;
+        margin-top: 32px;
+    }
+
+    header .number2{
+        left: 64px;
+        margin-top: 32px;
+    }
+
+    header .number3{
+        left: 96px;
+        margin-top: 32px;
+    }
+
+    header .number4{
+        left: 128px;
+        margin-top: 32px;
+    }
+
+    header .number5{
+        left: 160px;
+        margin-top: 32px;
+    }
+}  

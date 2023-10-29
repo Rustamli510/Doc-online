@@ -106,7 +106,7 @@ header .header .right img{
     background-color: #EDF0F4;
     border-radius: 8px;
     margin-top: 53px;
-    margin-left: 85px;
+    margin-left: 95px;
     position: relative;
 }
 
@@ -400,3 +400,74 @@ header .header .right img{
 }
 
 /* Social-media */
+
+/* Media */
+
+@media screen and (max-width: 767px){
+    body{
+        background-color: white;
+    }
+
+    .meet{
+        margin-top: 0;
+        border: none;
+        width: 767px;
+    }
+
+    .meet .upper .customize{
+        margin-left: 309px;
+    }
+
+    .meet .bottom{
+        margin-left: 137px;
+    }
+    
+}
+
+@media screen and (max-width: 575px){
+    body{
+        background-color: white;
+    }
+
+    .meet{
+        margin-top: 0;
+        border: none;
+        width: 575px;
+    }
+
+    .meet .upper .customize{
+        margin-left: 115px;
+    }
+
+    .meet .bottom{
+        margin-left: 34px;
+    }
+
+    .meet .bottom .clinic{
+        width: 509px;
+    }
+
+    .meet .bottom .map{
+        width: 509px;
+    }
+
+    .meet .bottom .map .gmap_canvas{
+        width: 509px;
+    }
+
+    .meet .bottom .date{
+        width: 509px;
+    }
+
+    .meet .bottom .issue{
+        width: 509px;
+    }
+
+    .meet .bottom .price{
+        width: 509px;
+    }
+
+    .meet .bottom .start-meet{
+        width: 509px;
+    }
+}

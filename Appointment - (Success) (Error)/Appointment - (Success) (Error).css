@@ -131,3 +131,41 @@ section .no-success p a{
     letter-spacing: -0.15px;
     color: #101825;
 }
+
+/* No-success */
+
+/* Media */
+
+@media screen and (max-width: 767px){
+    header .header img{
+        margin: 20px 0px 20px 18px;
+    }
+
+    section .success{
+        width: 543px;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+
+    section .no-success{
+        width: 543px;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    header .header img{
+        margin: 20px 0px 20px 18px;
+    }
+
+    section .success{
+        width: 543px;
+        margin-left: 16px;
+    }
+
+    section .no-success{
+        width: 543px;
+        margin-left: 16px;
+    }
+}

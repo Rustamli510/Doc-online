@@ -402,3 +402,91 @@ section .doctor-meet .continue a{
 }
 
 /* Appointment Schedule */
+
+/* Media */
+
+@media (max-width: 767px){
+
+    header .appointment-header .left .header-text{
+        position: absolute;
+        top: 96px;
+        left: 0;
+    }
+
+    header .border-bottom{
+        display: none;
+    } 
+
+    header .number{
+        left: 32px;
+        margin-top: 32px;
+    }
+
+    section .arrow{
+        display: none;
+    }
+
+    section{
+        margin-bottom: 20px;
+    }
+
+    section .doctor-meet{
+        margin-top: 45px;
+        width: 766px;
+        margin-left: 0;
+        border-radius: 0;
+        border: none;
+        background-color: #FCFCFD;
+    }
+
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+    }
+
+    section .doctor-meet .upper .upper-text p:first-child{
+        color: #4CB147;
+    }
+
+    section .doctor-meet h2{
+        display: none;
+    }
+
+    section .doctor-meet .center{
+        margin-left: 136px;  
+    }
+
+    section .doctor-meet .center h4{
+        display: none;
+    }
+
+    section .doctor-meet .date-time{
+        margin-left: 136px; 
+    }
+    
+    section .doctor-meet .continue{
+     margin-left: 136px;   
+    }
+    
+}    
+
+
+@media (max-width: 575px){
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+        width: 575px;
+    }
+
+    section .doctor-meet .center{
+        margin-left: 40px;  
+    }
+
+    section .doctor-meet .date-time{
+        margin-left: 40px; 
+    }
+    
+    section .doctor-meet .continue{
+        margin-left: 40px;   
+    }
+}

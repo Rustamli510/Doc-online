@@ -506,3 +506,136 @@ section .doctor-meet .login a{
 
 
 /* Form */
+
+/* Media */
+
+@media (max-width: 767px){
+
+    header .appointment-header .left .header-text .first{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .second{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .third{
+       position: absolute;
+       top: 96px;
+       margin-left: -60px;
+    }
+
+    header .appointment-header .left .header-text .fourth{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .fifth{
+       display: none;
+    }
+
+    header .border-bottom{
+        display: none;
+    } 
+
+    header .number1{
+        left: 32px;
+        margin-top: 32px;
+    }
+
+    header .number2{
+        left: 64px;
+        margin-top: 32px;
+    }
+
+    header .number3{
+        left: 96px;
+        margin-top: 32px;
+    }
+
+    header .number4{
+        left: 128px;
+        margin-top: 32px;
+    }
+
+    section .arrow{
+        display: none;
+    }
+
+    section{
+        margin-bottom: 20px;
+    }
+
+    section .doctor-meet{
+        margin-top: 45px;
+        width: 766px;
+        margin-left: 0;
+        border-radius: 0;
+        border: none;
+        background-color: #FCFCFD;
+    }
+
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+    }
+
+    section .doctor-meet .upper .upper-text p:first-child{
+        color: #4CB147;
+    }
+
+    section .doctor-meet h2{
+        display: none;
+    }
+
+    section .doctor-meet form{
+        margin-left: 136px;
+    }
+
+    section .doctor-meet .down{
+        margin-left: 136px;
+    }
+    
+    section .doctor-meet .continue{
+     margin-left: 136px;   
+    }
+
+    section .doctor-meet .and{
+        background-color: white;
+        margin-left: 136px;
+    }
+
+    section .doctor-meet .social-login{
+        margin-left: 136px;   
+       }
+    
+}    
+
+
+@media (max-width: 575px){
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+        width: 575px;
+    }
+
+    section .doctor-meet form{
+        margin-left: 40px;
+    }
+
+    section .doctor-meet .down{
+        margin-left: 40px;
+    }
+    
+    section .doctor-meet .continue{
+        margin-left: 40px;   
+    }
+
+    section .doctor-meet .and{
+        background-color: white;
+        margin-left: 40px;
+    }
+
+    section .doctor-meet .social-login{
+        margin-left: 40px;   
+       }
+}
