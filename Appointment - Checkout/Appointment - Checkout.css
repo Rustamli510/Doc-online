@@ -409,27 +409,10 @@ section .doctor-meet .continue a{
     section .doctor-meet h2{
         display: none;
     }
-
-    section .doctor-meet form{
-        margin-left: 136px;
-    }
-
-    section .doctor-meet .down{
-        margin-left: 136px;
-    }
     
     section .doctor-meet .continue{
      margin-left: 136px;   
     }
-
-    section .doctor-meet .and{
-        background-color: white;
-        margin-left: 136px;
-    }
-
-    section .doctor-meet .social-login{
-        margin-left: 136px;   
-       }
     
 }    
 
@@ -440,25 +423,8 @@ section .doctor-meet .continue a{
         border-top: 1px solid #EDF0F4;
         width: 575px;
     }
-
-    section .doctor-meet form{
-        margin-left: 40px;
-    }
-
-    section .doctor-meet .down{
-        margin-left: 40px;
-    }
     
     section .doctor-meet .continue{
         margin-left: 40px;   
     }
-
-    section .doctor-meet .and{
-        background-color: white;
-        margin-left: 40px;
-    }
-
-    section .doctor-meet .social-login{
-        margin-left: 40px;   
-       }
 }

@@ -522,15 +522,11 @@ section .doctor-meet .login a{
     header .appointment-header .left .header-text .third{
        position: absolute;
        top: 96px;
-       margin-left: -60px;
+       left: 100px;
     }
 
     header .appointment-header .left .header-text .fourth{
         display: none;
-    }
-
-    header .appointment-header .left .header-text .fifth{
-       display: none;
     }
 
     header .border-bottom{
