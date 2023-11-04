@@ -571,10 +571,6 @@ section .right-side .carousel .item .date p:last-child{
     font-family: 'Hk Grotesk';
 }
 
-section .right-side .carousel .owl-nav.disabled{
-    /* display: block; */
-}
-
 section .right-side .carousel .time{
     background-color: #4CB147;
     margin-top: 140px;
@@ -747,13 +743,7 @@ section .pagination ul li{
     height: 46px;
 }
 
-section .pagination ul li.active{
-    background-color: #4CB147;
-    color: white;
-    border: 1px solid #4CB147;
-}
-
-section .pagination ul li a{
+section .pagination ul li:hover{
     background-color: #4CB147;
 }
 
