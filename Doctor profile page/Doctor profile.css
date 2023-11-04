@@ -970,7 +970,94 @@ section .right .date-time .time ul li p{
     font-family: 'Hk Grotesk';
 }
 
-
 /* Right */
 
 /* Doc-info */
+
+/* Media */
+
+@media (max-width: 768px) {
+
+    section{
+        padding-left: 16px;
+    }
+
+    nav{
+        padding-left: 16px;
+    }
+
+    section .doc-info .text-col .upper-col{
+        padding-top: 25px;
+    }
+
+    section .doc-info .text-col .medium-col{
+        padding-top: 60px;
+        margin-left: -165px;
+    } 
+
+    section .doc-info .text-col .info-col{
+        margin-left: -165px;
+    }
+
+    section .left .education{
+        width: 543px;
+    }
+
+    section .left .work-time .time-table{
+        width: 543px;
+    }
+
+    section .left .location .upper-loc{
+        display: inherit;
+    }
+
+    section .left .location .upper-loc .loc-cont{
+        margin-left: 0px;
+        justify-content: space-between;
+        width: 543px;
+        margin-top: 12px;
+    }
+
+    section .left .location .mapouter{
+        width: 543px;
+    }
+
+    section .left .location .mapouter .gmap_canvas{
+        width: 543px;
+    }
+
+    section .left .location .mapouter .gmap_canvas iframe{
+        width: 543px;
+    }
+
+    section .left .course{
+        width: 543px;
+    }
+
+    section .left .insurances .insurance{
+        width: 543px;
+    }
+
+    section .left .comment{
+        width: 543px;
+    }
+
+    section .right{
+        border: none;
+        border-radius: inherit;
+        background-color: inherit;
+    }
+
+    section .right h5{
+        display: none;
+    }
+
+    section .right .choose-clinic{
+        display: none;
+    }
+
+    section .right .date-time{
+        display: none;
+    }
+
+}

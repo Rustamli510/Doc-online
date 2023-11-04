@@ -96,3 +96,53 @@ footer .lower-footer .right-side li p{
     font-weight: 400;
     font-family: 'Hk Grotesk';
 }
+
+/* Media */
+
+@media (max-width: 768px){
+
+    footer{
+        height: 616px;
+    }
+
+    footer .about-us{
+        display: inherit;
+    }
+
+    footer .about-us .doc-logo{
+        margin-top: 0px;
+    }
+
+    footer .about-us .doc-logo{
+        padding-left: 16px;
+        padding-top: 32px;
+    } 
+
+    footer .about-us .download-logo{
+        margin: 0;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+
+    footer .about-us .about-us-list{
+        margin-left: 0;
+        padding-left: 16px;
+        display: inherit;
+    }
+
+    footer .about-us .about-us-list ul:nth-child(2){
+        margin: 0;
+    }
+
+    footer .lower-footer{
+        padding-top: 304px;
+    }
+
+    footer .lower-footer .left-side{
+        padding-left: 16px;
+    }
+
+    footer .lower-footer .right-side{
+        padding-right: 16px;
+    }
+}

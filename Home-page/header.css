@@ -70,3 +70,32 @@ header nav .nav-bar .nav-text ul li:last-child{
 }
 
 /* Header */
+
+
+/* Media */
+
+@media (max-width: 768px) {
+
+    /* Header */
+
+    header nav .nav-bar {
+        width: 800px;
+        justify-content: inherit;
+    }
+
+    header nav .nav-bar .logo{
+        padding: 20px 16px;
+    }
+
+    header nav .nav-bar .nav-text{
+        margin-left: 200px;
+    }
+
+    header nav .nav-bar .nav-text ul li:nth-child(1){
+        display: none;
+    }
+
+    header nav .nav-bar .nav-text ul li:nth-child(2){
+        display: none;
+    }
+}
