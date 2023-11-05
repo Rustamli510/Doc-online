@@ -136,7 +136,7 @@ section .no-success p a{
 
 /* Media */
 
-@media screen and (max-width: 767px){
+@media (max-width: 768px){
     header .header img{
         margin: 20px 0px 20px 18px;
     }

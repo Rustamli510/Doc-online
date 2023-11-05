@@ -255,7 +255,7 @@ header .number5 img{
 
 /* Media */
 
-@media screen and (max-width: 767px){
+@media (max-width: 768px){
     
     header .appointment-header .left .header-text .first{
         display: none;

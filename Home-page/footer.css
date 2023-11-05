@@ -146,3 +146,30 @@ footer .lower-footer .right-side li p{
         padding-right: 16px;
     }
 }
+
+
+@media (max-width: 575px) {
+
+    footer{
+        height: 640px;
+    }
+
+    footer .about-us{
+        height: 260px;
+        padding-bottom: 30px;
+    }
+
+    footer .lower-footer::before{
+        height: 64px;
+    }
+
+    footer .lower-footer .left-side ul{
+        position: absolute;
+        margin-top: -70px;
+    }
+
+    footer .lower-footer .right-side{
+        position: relative;
+        text-align: center;
+    }
+}
