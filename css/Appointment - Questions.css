@@ -1,0 +1,352 @@
+@import url(./font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FCFCFD;
+}
+
+/* Header */
+
+header{
+    height: 79px;
+    position: relative;
+    border-bottom: 1px solid #EDF0F4;
+    background-color: white;
+}
+
+header .appointment-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .appointment-header .left{
+    display: flex;
+    align-items: center;
+}
+
+header .appointment-header .left img{
+    padding: 20px 0px 20px 32px;
+}
+
+header .appointment-header .left .header-text{
+    margin-left: 78px;
+    display: flex;
+}
+
+header .appointment-header .left .header-text .first p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+header .appointment-header .left .header-text .first p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .left .header-text .second{
+    margin-left: 72px;
+}
+
+header .appointment-header .left .header-text .second p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 500;
+    font-family: 'Hk Grotesk';
+    color: #4CB147;
+}
+
+header .appointment-header .left .header-text .second p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .right{
+    margin-right: 32px;
+    width: 36px;
+    height: 36px;
+    background-color: #EDF0F4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+} 
+
+header .appointment-header .right img{
+    margin-left: 11px;
+    width: 16px;
+    height: 16px;
+}
+
+header .border-bottom{
+    position: absolute;
+    border-bottom: 1px solid #4CB147;
+    bottom: -1px;
+    width: 495px;
+}
+
+header .number1{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #4CB147;
+    top: 67px;
+    left: 265px;
+}
+
+header .number1 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+header .number2{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    top: 67px;
+    left: 495px;
+}
+
+header .number2 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+/* Header */
+
+/* Sikayet */
+
+section{
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+section .arrow{
+    width: 39px;
+    height: 39px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+section .arrow img{
+    margin-left: 15px;
+}
+
+section .doctor-meet{
+    width: 555px;
+    height: 372px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: white;
+    margin-left: 8px;
+}
+
+section .doctor-meet .upper{
+    display: flex;
+    border-bottom: 1px solid #EDF0F4;
+}
+
+section .doctor-meet .upper img{
+    margin: 24px 0px 24px 32px;
+}
+
+section .doctor-meet .upper .upper-text{
+    margin-top: 38px;
+    margin-left: 16px;
+}
+
+section .doctor-meet .upper .upper-text p:first-child{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+section .doctor-meet .upper .upper-text p:last-child{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+section .doctor-meet .center{
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+section .doctor-meet .center h2{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+section .doctor-meet .center h6{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+section .doctor-meet .center select{
+    width: 491px;
+    height: 47px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px; 
+    margin-top: 4px;
+}
+
+section .doctor-meet .center select option{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    color: #101825;
+}
+
+section .doctor-meet .continue{
+    width: 491px;
+    height: 47px;
+    margin-top: 16px;
+    margin-left: 32px;
+    background-color: #4CB147;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+}
+
+section .doctor-meet .continue a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    font-family: 'Hk Grotesk';
+    color: white;
+    margin-top: 12px;
+    margin-left: 45%;
+}
+
+/* Sikayet */
+
+/* Media */
+
+@media (max-width: 768px){
+
+    header .appointment-header .left .header-text .first{
+        display: none;
+    }
+
+    header .appointment-header .left .header-text .second{
+        position: absolute;
+       top: 96px;
+       left: 40px;
+    }
+
+    header .border-bottom{
+        display: none;
+    } 
+
+    header .number1{
+        left: 32px;
+        margin-top: 32px;
+    }
+
+    header .number2{
+        left: 64px;
+        margin-top: 32px;
+    }
+
+    section .arrow{
+        display: none;
+    }
+
+    section{
+        margin-bottom: 20px;
+    }
+
+    section .doctor-meet{
+        margin-top: 45px;
+        width: 766px;
+        margin-left: 0;
+        border-radius: 0;
+        border: none;
+        background-color: #FCFCFD;
+    }
+
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+    }
+
+    section .doctor-meet .upper .upper-text p:first-child{
+        color: #4CB147;
+    }
+
+    section .doctor-meet h2{
+        display: none;
+    }
+
+    section .doctor-meet .center{
+        margin-left: 136px;  
+    }
+    
+    section .doctor-meet .continue{
+     margin-left: 136px;   
+    }
+    
+}    
+
+
+@media (max-width: 575px){
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+        width: 575px;
+    }
+
+    section .doctor-meet .center{
+        margin-left: 40px;  
+    }
+    
+    section .doctor-meet .continue{
+        margin-left: 40px;   
+    }
+}

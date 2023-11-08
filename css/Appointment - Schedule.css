@@ -1,0 +1,492 @@
+@import url(./font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #FCFCFD;
+}
+
+/* Header */
+
+header{
+    height: 79px;
+    position: relative;
+    border-bottom: 1px solid #EDF0F4;
+    background-color: white;
+}
+
+header .appointment-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .appointment-header .left{
+    display: flex;
+    align-items: center;
+}
+
+header .appointment-header .left img{
+    padding: 20px 0px 20px 32px;
+}
+
+header .appointment-header .left .header-text{
+    margin-left: 78px;
+}
+
+header .appointment-header .left .header-text p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #4CB147;
+}
+
+header .appointment-header .left .header-text p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+header .appointment-header .right{
+    margin-right: 32px;
+    width: 36px;
+    height: 36px;
+    background-color: #EDF0F4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+} 
+
+header .appointment-header .right img{
+    margin-left: 11px;
+    width: 16px;
+    height: 16px;
+}
+
+header .border-bottom{
+    position: absolute;
+    border-bottom: 1px solid #4CB147;
+    bottom: -1px;
+    width: 265px;
+}
+
+header .number{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #4CB147;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    top: 67px;
+    left: 265px;
+}
+
+header .number img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+/* Header */
+
+/* Appointment Schedule */
+
+section{
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+section .arrow{
+    width: 39px;
+    height: 39px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+section .arrow img{
+    margin-left: 15px;
+}
+
+/* Meet */
+
+section .doctor-meet{
+    width: 555px;
+    height: 716px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: white;
+    margin-left: 8px;
+}
+
+section .doctor-meet .upper{
+    display: flex;
+    border-bottom: 1px solid #EDF0F4;
+}
+
+section .doctor-meet .upper img{
+    margin: 24px 0px 24px 32px;
+}
+
+section .doctor-meet .upper .upper-text{
+    margin-top: 38px;
+    margin-left: 16px;
+}
+
+section .doctor-meet .upper .upper-text p:first-child{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+section .doctor-meet .upper .upper-text p:last-child{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+section .doctor-meet .center{
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+section .doctor-meet .center h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.15px;
+    color: #101825;
+}
+
+section .doctor-meet .center .meet{
+    margin-top: 16px;
+    display: flex;
+}
+
+section .doctor-meet .center .meet .clinic-meet{
+    position: relative;
+    display: flex;
+    width: 241px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    transition: linear .2s;
+}
+
+section .doctor-meet .center .meet .clinic-meet:last-child{
+    margin-left: 8px;
+}
+
+section .doctor-meet .center .meet .clinic-meet:hover{
+    background-color: #F2FAF2;
+    border: 1px solid #4CB147;
+    cursor: pointer;
+}
+
+section .doctor-meet .center .meet .clinic-meet:hover:last-child{
+    background-color: #fff0f0;
+    border: 1px solid #D45A5A;
+}
+
+section .doctor-meet .center .meet .clinic-meet img:first-child{
+    margin-top: 20px;
+    margin-left: 24px;
+    position: relative;
+    z-index: 9;
+    width: 16px;
+    height: 16px;
+}
+
+section .doctor-meet .center .meet .clinic-meet span{
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #F2FAF2;
+    border-radius: 100%;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+section .doctor-meet .center .meet .clinic-meet p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.1px;
+    color: #101825;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+section .doctor-meet .center .meet .clinic-meet img:last-child{
+    right: 16px;
+    position: absolute;
+    top: 22px;
+}
+
+/* Meet */
+
+/* Choose clinic */
+
+section .doctor-meet .center .choose-clinic{
+    margin-top: 16px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin-top: 16px;
+    width: 492px;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    transition: linear.2s;
+}
+
+section .doctor-meet .center .choose-clinic:hover{
+    background-color: #F2FAF2;
+    border: 1px solid #4CB147;
+    cursor: pointer;
+}
+
+section .doctor-meet .center .choose-clinic input[type='checkbox']{
+    margin-left: 16px;
+}
+
+section .doctor-meet .center .choose-clinic P{
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.1px;
+    color: #273142;
+}
+
+/* Choose Clinic */
+
+/* Date and Time */
+
+section .doctor-meet .date-time{
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+section .doctor-meet .date-time .date{
+    display: flex;
+}
+
+section .doctor-meet .date-time .date ul{
+    background-color: white;
+    width: 90px;
+    height: 45px;
+    margin-left: 8px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    text-align: center;
+    transition: linear .2s;
+    cursor: pointer;
+}
+
+section .doctor-meet .date-time .date ul:hover{
+    background-color: #4CB147;
+    border: 1px solid #4CB147;
+}
+
+section .doctor-meet .date-time .date ul:first-child{
+    margin-left: 0;
+}
+
+section .doctor-meet .date-time .date ul li:first-child{
+    margin-top: 5px;
+}
+
+section .doctor-meet .date-time .date ul li:last-child{
+    color: #B7BBC2;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+}
+
+section .doctor-meet .date-time .date ul li p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    letter-spacing: -0.1px;
+}
+
+section .doctor-meet .date-time .time{
+    margin-top: 16px;
+}
+
+section .doctor-meet .date-time .time ul{
+    display: flex;
+    margin-top: 8px;
+}
+
+section .doctor-meet .date-time .time ul li{
+    border-radius: 7px;
+    background-color: #EDF0F4;
+    margin-left: 8px;
+    width: 92px;
+    height: 29px;
+    text-align: center;
+    transition: linear .3s;
+}
+
+section .doctor-meet .date-time .time ul li:first-child{
+    margin-left: 0;
+}
+
+section .doctor-meet .date-time .time ul li:hover{
+    background-color: #4CB147;
+    cursor: pointer;
+}
+
+section .doctor-meet .date-time .time ul li p{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    font-family: 'Hk Grotesk';
+}
+
+section .doctor-meet .continue{
+    width: 491px;
+    height: 47px;
+    margin-top: 16px;
+    margin-left: 24px;
+    background-color: #4CB147;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+}
+
+section .doctor-meet .continue a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    font-family: 'Hk Grotesk';
+    color: white;
+    margin-top: 12px;
+    margin-left: 45%;
+}
+
+/* Appointment Schedule */
+
+/* Media */
+
+@media (max-width: 768px){
+
+    header .appointment-header .left .header-text{
+        position: absolute;
+        top: 96px;
+        left: 0;
+    }
+
+    header .border-bottom{
+        display: none;
+    } 
+
+    header .number{
+        left: 32px;
+        margin-top: 32px;
+    }
+
+    section .arrow{
+        display: none;
+    }
+
+    section{
+        margin-bottom: 20px;
+    }
+
+    section .doctor-meet{
+        margin-top: 45px;
+        width: 766px;
+        margin-left: 0;
+        border-radius: 0;
+        border: none;
+        background-color: #FCFCFD;
+    }
+
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+    }
+
+    section .doctor-meet .upper .upper-text p:first-child{
+        color: #4CB147;
+    }
+
+    section .doctor-meet h2{
+        display: none;
+    }
+
+    section .doctor-meet .center{
+        margin-left: 136px;  
+    }
+
+    section .doctor-meet .center h4{
+        display: none;
+    }
+
+    section .doctor-meet .date-time{
+        margin-left: 136px; 
+    }
+    
+    section .doctor-meet .continue{
+     margin-left: 136px;   
+    }
+    
+}    
+
+
+@media (max-width: 575px){
+    section .doctor-meet .upper{
+        background-color: white;
+        border-top: 1px solid #EDF0F4;
+        width: 575px;
+    }
+
+    section .doctor-meet .center{
+        margin-left: 40px;  
+    }
+
+    section .doctor-meet .date-time{
+        margin-left: 40px; 
+    }
+    
+    section .doctor-meet .continue{
+        margin-left: 40px;   
+    }
+}

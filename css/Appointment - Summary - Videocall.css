@@ -1,0 +1,438 @@
+@import url(./font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FCFCFD;
+}
+
+
+/* Header */
+
+header{
+    height: 79px;
+    position: relative;
+    border-bottom: 1px solid #EDF0F4;
+    background-color: white;
+}
+
+header .header{
+    display: flex;
+}
+
+header .header img{
+    margin: 20px 0px 20px 32px;
+}
+
+header .header .right{
+    width: 36px;
+    height: 36px;
+    background-color: #EDF0F4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+header .header .right img{
+    margin: 0;
+    margin-left: 11px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Header */
+
+
+/* Goruse basla */
+
+
+.meet{
+    width: 555px;
+    height: 512px;
+    background-color: white;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+/* Upper */
+
+.meet .upper{
+    display: flex;
+    border-bottom: 1px solid #EDF0F4;
+}
+
+.meet .upper img{
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+
+.meet .upper .upper-text{
+    margin-top: 38px;
+    margin-left: 16px;
+}
+
+.meet .upper .upper-text p:first-child{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #848B98;
+}
+
+.meet .upper .upper-text p:last-child{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Hk Grotesk';
+    color: #101825;
+}
+
+.meet .upper .info img{
+    margin-top: 74px;
+    margin-left: 8px;
+}
+
+.meet .upper .customize{
+    width: 99px;
+    height: 30px;
+    background-color: #EDF0F4;
+    border-radius: 8px;
+    margin-top: 53px;
+    margin-left: 85px;
+    position: relative;
+}
+
+.meet .upper .customize a{
+    color: #273142;
+    position: absolute;
+    font-family: 'HK Grotesk';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+/* Upper */
+
+/* Bottom */
+
+.meet .bottom{
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.meet .bottom .video-call{
+    display: flex;
+    width: 491px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    align-items: center;
+}
+
+.meet .bottom .video-call img{
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+}
+
+.meet .bottom .video-call p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: #273142;
+}
+
+.meet .bottom .date{
+    display: flex;
+    position: relative;
+    width: 491px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.meet .bottom .date .left{
+    display: flex;
+}
+
+.meet .bottom .date .left img{  
+    margin-left: 24px;
+}
+
+.meet .bottom .date .left p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin-left: 8px;
+    margin-top: 3px;
+    color: #273142;
+}
+
+.meet .bottom .date span{
+    width: 1px;
+    height: 56px;
+    display: block;
+    background-color: #EDF0F4;
+    margin-left: 118px;
+}
+
+.meet .bottom .date .right{
+    display: flex;
+
+}
+
+.meet .bottom .date .right img{
+    margin-left: 24px;
+}
+
+.meet .bottom .date .right p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin-left: 8px;
+    margin-top: 4px;
+    color: #273142;
+}
+
+.meet .bottom .issue{
+    width: 491px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    margin-top: 8px;
+}
+
+.meet .bottom .issue p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin-left: 24px;
+    margin-top: 16px;
+    color: #273142;
+}
+
+.meet .bottom .price{
+    display: flex;
+    justify-content: space-between;
+    width: 491px;
+    height: 55px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    margin-top: 8px;
+}
+
+.meet .bottom .price .text{
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.meet .bottom .price .text p{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: #273142;
+}
+
+.meet .bottom .price .money{
+    margin-right: 24px;
+    margin-top: 14px;
+    display: flex;
+}
+
+.meet .bottom .price .money p:first-child{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #848B98;
+}
+
+.meet .bottom .price .money p:last-child{
+    font-family: 'HK Grotesk';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    margin-left: 4px;
+    color: #273142;
+    margin-top: -1px;
+}
+
+.meet .bottom .start-meet{
+    width: 492px;
+    height: 56px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #4CB147;
+    margin-top: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+.meet .bottom .start-meet a{
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+/* Bottom */
+
+/* Goruse basla */
+
+/* Page-bottom */
+
+.page-bottom{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.page-bottom p{
+    font-family: 'Hk Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #273142;
+}
+
+.page-bottom a{
+    font-family: 'Hk Grotesk';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #4CB147;
+}
+
+/* Page-bottom */
+
+/* Social-media */
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 115px;
+}
+
+.social-media .social{
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #EDF0F4;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.social-media .social:nth-child(2){
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.social-media .social a img{
+    margin: 11px;
+}
+
+/* Social-media */
+
+/* Media */
+
+@media (max-width: 768px){
+    body{
+        background-color: white;
+    }
+
+    .meet{
+        margin-top: 0;
+        border: none;
+        width: 767px;
+    }
+
+    .meet .upper .customize{
+        margin-left: 309px;
+    }
+
+    .meet .bottom{
+        margin-left: 137px;
+    }
+    
+}
+
+@media (max-width: 575px){
+    body{
+        background-color: white;
+    }
+
+    .meet{
+        margin-top: 0;
+        border: none;
+        width: 575px;
+    }
+
+    .meet .upper .customize{
+        margin-left: 115px;
+    }
+
+    .meet .bottom{
+        margin-left: 34px;
+    }
+
+    .meet .bottom .video-call{
+        width: 509px;
+    }
+
+    .meet .bottom .date{
+        width: 509px;
+    }
+
+    .meet .bottom .issue{
+        width: 509px;
+    }
+
+    .meet .bottom .price{
+        width: 509px;
+    }
+
+    .meet .bottom .start-meet{
+        width: 509px;
+    }
+}
